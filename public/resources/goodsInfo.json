@@ -1,0 +1,79 @@
+"data": [
+    {
+      "time": "2016-11-23T16:00:00.000Z",
+      "sale": 397,
+      "amount": 397,
+      "commentNum": 47,
+      "focusNum": 95,
+      "saleRatio": null,
+      "amountRatio": null,
+      "commentNumRatio": null,
+      "focusNumRatio": null
+    },
+    {
+      "time": "2016-11-24T16:00:00.000Z",
+      "sale": 359,
+      "amount": 359,
+      "commentNum": 0,
+      "focusNum": 120,
+      "saleRatio": -9.571788413098236,
+      "amountRatio": -9.571788413098236,
+      "commentNumRatio": -100,
+      "focusNumRatio": 0
+    },
+    {
+      "time": "2016-11-25T16:00:00.000Z",
+      "sale": 482,
+      "amount": 482,
+      "commentNum": 73,
+      "focusNum": 157,
+      "saleRatio": 34.26183844011142,
+      "amountRatio": 34.26183844011142,
+      "commentNumRatio": 7300,
+      "focusNumRatio": 0
+    },
+    {
+      "time": "2016-11-26T16:00:00.000Z",
+      "sale": 491,
+      "amount": 442.08151597397455,
+      "commentNum": 35,
+      "focusNum": 269,
+      "saleRatio": 1.8672199170124482,
+      "amountRatio": -8.281843158926442,
+      "commentNumRatio": 0,
+      "focusNumRatio": 0
+    },
+    {
+      "time": "2016-11-27T16:00:00.000Z",
+      "sale": 490,
+      "amount": 490,
+      "commentNum": 42,
+      "focusNum": 254,
+      "saleRatio": -0.20366598778004072,
+      "amountRatio": 10.839286940204582,
+      "commentNumRatio": 0,
+      "focusNumRatio": 0
+    },
+    {
+      "time": "2016-11-28T16:00:00.000Z",
+      "sale": 527,
+      "amount": 527,
+      "commentNum": 0,
+      "focusNum": 189,
+      "saleRatio": 7.551020408163265,
+      "amountRatio": 7.551020408163265,
+      "commentNumRatio": -100,
+      "focusNumRatio": 0
+    },
+    {
+      "time": "2016-11-29T16:00:00.000Z",
+      "sale": 393,
+      "amount": 393,
+      "commentNum": 0,
+      "focusNum": 98,
+      "saleRatio": -25.426944971537,
+      "amountRatio": -25.426944971537,
+      "commentNumRatio": 0,
+      "focusNumRatio": 0
+    }
+  ]
