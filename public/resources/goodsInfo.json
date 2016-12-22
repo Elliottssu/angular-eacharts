@@ -1,15 +1,4 @@
-"data": [
-    {
-      "time": "2016-11-23T16:00:00.000Z",
-      "sale": 397,
-      "amount": 397,
-      "commentNum": 47,
-      "focusNum": 95,
-      "saleRatio": null,
-      "amountRatio": null,
-      "commentNumRatio": null,
-      "focusNumRatio": null
-    },
+[
     {
       "time": "2016-11-24T16:00:00.000Z",
       "sale": 359,
