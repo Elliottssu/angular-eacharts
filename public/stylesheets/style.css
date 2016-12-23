@@ -1,0 +1,39 @@
+body{
+    font-family: Helvetica,Arial,"Microsoft YaHei","tohoma,sans-serif";
+}
+.main{
+	width: 1250px;
+    margin: 0 auto
+}
+.echarts-main {
+	height: 400px;
+}
+.tab-title {
+	font-size: 18px;
+	margin-top: 20px
+
+}
+.chart-tab {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #e1e1e1;
+    background-color: #f5f5f5;
+    border-bottom: none;
+    height: 40px;
+    
+}
+.chart-tab ul {
+	padding: 0;
+}
+.chart-tab li {
+    border-right: 1px solid #e1e1e1;
+    float: left;
+    color: #111111;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    list-style: none;
+}
+.chart-tab li.active {
+    background-color: #FFFFFF;
+}

@@ -41,25 +41,5 @@ angular.module('echartsServiceModule', [])
 			
 			return option
 		}
-		//折线图demo
-		service.typeLine2 = function () {
-			var option = {
-	            tooltip: {},
-	            legend: {
-	                data:['件']
-	            },
-	            xAxis: {
-	                data: ['2016/12/6', '2016/12/7', '2016/12/8', '2016/12/9', '2016/12/10', '2016/12/11', '2016/12/12']
-	            },
-	            yAxis: {},
-	            series: [{
-	                name: '累计数',
-	                type: 'bar',
-	                data: [5, 5, 8, 8, 8, 8, 10]
-	            }]
-			}
-			
-			return option
-		}
 		return service
 	})
