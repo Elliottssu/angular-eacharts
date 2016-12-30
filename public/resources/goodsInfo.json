@@ -64,5 +64,82 @@
       "amountRatio": -25.426944971537,
       "commentNumRatio": 0,
       "focusNumRatio": 0
+    },
+    {
+      "time": "2016-11-30T16:00:00.000Z",
+      "sale": 286,
+      "amount": 572,
+      "commentNum": 39,
+      "focusNum": 66,
+      "saleRatio": 31.797235023041477,
+      "amountRatio": 31.797235023041477,
+      "commentNumRatio": 3900,
+      "focusNumRatio": -16.455696202531644
+    },
+    {
+      "time": "2016-12-01T16:00:00.000Z",
+      "sale": 339,
+      "amount": 678,
+      "commentNum": 0,
+      "focusNum": 80,
+      "saleRatio": 18.53146853146853,
+      "amountRatio": 18.53146853146853,
+      "commentNumRatio": -100,
+      "focusNumRatio": 21.21212121212121
+    },
+    {
+      "time": "2016-12-02T16:00:00.000Z",
+      "sale": 402,
+      "amount": 804,
+      "commentNum": 46,
+      "focusNum": 70,
+      "saleRatio": 18.58407079646018,
+      "amountRatio": 18.58407079646018,
+      "commentNumRatio": 4600,
+      "focusNumRatio": -12.5
+    },
+    {
+      "time": "2016-12-03T16:00:00.000Z",
+      "sale": 506,
+      "amount": 1012,
+      "commentNum": 0,
+      "focusNum": 73,
+      "saleRatio": 25.870646766169152,
+      "amountRatio": 25.870646766169152,
+      "commentNumRatio": -100,
+      "focusNumRatio": 4.285714285714286
+    },
+    {
+      "time": "2016-12-04T16:00:00.000Z",
+      "sale": 503,
+      "amount": 1006,
+      "commentNum": 35,
+      "focusNum": 76,
+      "saleRatio": -0.592885375494071,
+      "amountRatio": -0.592885375494071,
+      "commentNumRatio": 3500,
+      "focusNumRatio": 4.10958904109589
+    },
+    {
+      "time": "2016-12-05T16:00:00.000Z",
+      "sale": 435,
+      "amount": 870,
+      "commentNum": 0,
+      "focusNum": 64,
+      "saleRatio": -13.518886679920477,
+      "amountRatio": -13.518886679920477,
+      "commentNumRatio": -100,
+      "focusNumRatio": -15.789473684210526
+    },
+    {
+      "time": "2016-12-06T16:00:00.000Z",
+      "sale": 417,
+      "amount": 834,
+      "commentNum": 58,
+      "focusNum": 107,
+      "saleRatio": -4.137931034482759,
+      "amountRatio": -4.137931034482759,
+      "commentNumRatio": 5800,
+      "focusNumRatio": 67.1875
     }
   ]

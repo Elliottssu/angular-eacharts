@@ -1,8 +1,9 @@
 angular.module('echartsCtrlModule', ['echartsServiceModule'])
 	.controller('echartsCtrl', function ($scope, $http, echartService) {
+		$scope.showId = [true, false, false, false, true, false, false, false];
 		$scope.showTrend = function (index) {
 		  $scope.showId = [];
-		  $scope.showId[index] = [true, false, false, false, true, false, false, false];
+		  $scope.showId[index] = true;
 		  switch (index) {
 		    case 0:
 		      $scope.lineSingleOption = $scope.lineOption1;
@@ -30,7 +31,6 @@ angular.module('echartsCtrlModule', ['echartsServiceModule'])
 			  break;
 		  }
 		};
-
 
 
 		$scope.lineData1 = {

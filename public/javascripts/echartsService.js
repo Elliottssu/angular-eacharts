@@ -17,25 +17,24 @@ angular.module('echartsServiceModule', [])
 		//单折线图
 		service.typeLineOption = function (data) {
 			var option = {
-	            tooltip: {},
+	            tooltip: {
+	              trigger: "axis"
+	            },
 	            legend: {
-	                data:['件']
+	                data: data.legend
 	            },
 	            xAxis: {
 	                data: data.xAxisData
 	            },
-	            yAxis: {},
+	            yAxis: {
+	                name: data.legend[0]
+	            },
 	            series: [
 	            	{
-	              	 name: '销售量',
+	              	 name: data.legend[0],
 	               	 type: 'line',
 	               	 data: data.seriesData[0]
-	          		},
-          		  	{
-	  		    	 name: '增长率',
-	  		     	 type: 'line',
-	  		     	 data: data.seriesData[1]
-	  				}
+	          		}
 	            ]
 			}
 			
@@ -49,46 +48,14 @@ angular.module('echartsServiceModule', [])
 		            trigger: "axis"
 		          },
 		          legend: {
-		            show: true,
 		            data: data.legend,
-		            top: 10
 		          },
-		          height: "70%",
-		          grid: {
-		            bottom: 15,
-		            left: 20,
-		            right: 20
-		          },
-		          color : ['#39CCCC','#0074D9'],
-		          xAxis: [
-		            {
-		              type: "category",
-		              nameGap: 35,
-		              axisTick: {
-		                show: false
-		              },
-		              axisLine: {
-		                onZero: true
-		              },
+		          xAxis:  {
 		              data: data.xAxisData
-		            }
-		          ],
+		          },
 		          yAxis: [
 		            {
-		              type: "value",
 		              name: data.legend[0],
-		              axisLabel: {
-		                formatter: "{value}",
-		                inside: true,
-		                margin: 8
-		              },
-		              axisTick: {
-		                show: false
-		              },
-		              nameTextStyle: {
-		                color: "#000"
-		              },
-		              zlevel: 10,
 		              splitLine: {
 		                show: false
 		              },
@@ -97,19 +64,7 @@ angular.module('echartsServiceModule', [])
 		              }
 		            },
 		            {
-		              type: "value",
 		              name: data.legend[1],
-		              axisLabel: {
-		                inside: true,
-		                margin: 8
-		              },
-		              axisTick: {
-		                show: false
-		              },
-		              nameTextStyle: {
-		                color: "#000"
-		              },
-		              zlevel: 10,
 		              splitLine: {
 		                show: false
 		              },
@@ -122,21 +77,13 @@ angular.module('echartsServiceModule', [])
 		            {
 		              name: data.legend[0],
 		              type: "bar",
-		              smooth: true,
-		              label: {
-		                normal: {
-		                  show: false
-		                }
-		              },
 		              data: data.seriesData[0]
 		            },
 		            {
 		              name: data.legend[1],
 		              type: "line",
 		              yAxisIndex: 1,
-		              smooth: true,
-		              data: data.seriesData[1],
-		              connectNulls: true
+		              data: data.seriesData[1]
 		            }
 		          ]
 		        }
