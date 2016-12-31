@@ -1,145 +1,2369 @@
-[
-    {
-      "time": "2016-11-24T16:00:00.000Z",
-      "sale": 359,
-      "amount": 359,
-      "commentNum": 0,
-      "focusNum": 120,
-      "saleRatio": -9.571788413098236,
-      "amountRatio": -9.571788413098236,
-      "commentNumRatio": -100,
-      "focusNumRatio": 0
-    },
-    {
-      "time": "2016-11-25T16:00:00.000Z",
-      "sale": 482,
-      "amount": 482,
-      "commentNum": 73,
-      "focusNum": 157,
-      "saleRatio": 34.26183844011142,
-      "amountRatio": 34.26183844011142,
-      "commentNumRatio": 7300,
-      "focusNumRatio": 0
-    },
-    {
-      "time": "2016-11-26T16:00:00.000Z",
-      "sale": 491,
-      "amount": 442.08151597397455,
-      "commentNum": 35,
-      "focusNum": 269,
-      "saleRatio": 1.8672199170124482,
-      "amountRatio": -8.281843158926442,
-      "commentNumRatio": 0,
-      "focusNumRatio": 0
-    },
-    {
-      "time": "2016-11-27T16:00:00.000Z",
-      "sale": 490,
-      "amount": 490,
-      "commentNum": 42,
-      "focusNum": 254,
-      "saleRatio": -0.20366598778004072,
-      "amountRatio": 10.839286940204582,
-      "commentNumRatio": 0,
-      "focusNumRatio": 0
-    },
-    {
-      "time": "2016-11-28T16:00:00.000Z",
-      "sale": 527,
-      "amount": 527,
-      "commentNum": 0,
-      "focusNum": 189,
-      "saleRatio": 7.551020408163265,
-      "amountRatio": 7.551020408163265,
-      "commentNumRatio": -100,
-      "focusNumRatio": 0
-    },
-    {
-      "time": "2016-11-29T16:00:00.000Z",
-      "sale": 393,
-      "amount": 393,
-      "commentNum": 0,
-      "focusNum": 98,
-      "saleRatio": -25.426944971537,
-      "amountRatio": -25.426944971537,
-      "commentNumRatio": 0,
-      "focusNumRatio": 0
-    },
-    {
-      "time": "2016-11-30T16:00:00.000Z",
-      "sale": 286,
-      "amount": 572,
-      "commentNum": 39,
-      "focusNum": 66,
-      "saleRatio": 31.797235023041477,
-      "amountRatio": 31.797235023041477,
-      "commentNumRatio": 3900,
-      "focusNumRatio": -16.455696202531644
-    },
-    {
-      "time": "2016-12-01T16:00:00.000Z",
-      "sale": 339,
-      "amount": 678,
-      "commentNum": 0,
-      "focusNum": 80,
-      "saleRatio": 18.53146853146853,
-      "amountRatio": 18.53146853146853,
-      "commentNumRatio": -100,
-      "focusNumRatio": 21.21212121212121
-    },
-    {
-      "time": "2016-12-02T16:00:00.000Z",
-      "sale": 402,
-      "amount": 804,
-      "commentNum": 46,
-      "focusNum": 70,
-      "saleRatio": 18.58407079646018,
-      "amountRatio": 18.58407079646018,
-      "commentNumRatio": 4600,
-      "focusNumRatio": -12.5
-    },
-    {
-      "time": "2016-12-03T16:00:00.000Z",
-      "sale": 506,
-      "amount": 1012,
-      "commentNum": 0,
-      "focusNum": 73,
-      "saleRatio": 25.870646766169152,
-      "amountRatio": 25.870646766169152,
-      "commentNumRatio": -100,
-      "focusNumRatio": 4.285714285714286
-    },
-    {
-      "time": "2016-12-04T16:00:00.000Z",
-      "sale": 503,
-      "amount": 1006,
-      "commentNum": 35,
-      "focusNum": 76,
-      "saleRatio": -0.592885375494071,
-      "amountRatio": -0.592885375494071,
-      "commentNumRatio": 3500,
-      "focusNumRatio": 4.10958904109589
-    },
-    {
-      "time": "2016-12-05T16:00:00.000Z",
-      "sale": 435,
-      "amount": 870,
-      "commentNum": 0,
-      "focusNum": 64,
-      "saleRatio": -13.518886679920477,
-      "amountRatio": -13.518886679920477,
-      "commentNumRatio": -100,
-      "focusNumRatio": -15.789473684210526
-    },
-    {
-      "time": "2016-12-06T16:00:00.000Z",
-      "sale": 417,
-      "amount": 834,
-      "commentNum": 58,
-      "focusNum": 107,
-      "saleRatio": -4.137931034482759,
-      "amountRatio": -4.137931034482759,
-      "commentNumRatio": 5800,
-      "focusNumRatio": 67.1875
-    }
-  ]
+{
+  "code": 1,
+  "message": "success",
+  "data": {
+    "shopSummary": [
+      {
+        "shopId": "53b7b1dd46188e74db5f7e80",
+        "shopName": "full_house",
+        "goodsId": "53ed69461c105e58fc951209",
+        "totalSale": 282322
+      },
+      {
+        "shopId": "544765ef8edcfa4fe26b3350",
+        "shopName": "WalkerJonny",
+        "goodsId": "5451dc589719cd3949e0174d",
+        "totalSale": 171582
+      },
+      {
+        "shopId": "56e7b85c1061fb58536f49b1",
+        "shopName": "My Everything",
+        "goodsId": "56fa60b0152b6069637d6ea9",
+        "totalSale": 468437
+      },
+      {
+        "shopId": "5451f6601280fa3baaf5840e",
+        "shopName": "Guyizhai163",
+        "goodsId": "550cd6ae75f86c182ef74ca0",
+        "totalSale": 352656
+      },
+      {
+        "shopId": "5440c13198dc20419b19d815",
+        "shopName": "MTara1",
+        "goodsId": "545c9f3f5f313f6590bca434",
+        "totalSale": 340502
+      },
+      {
+        "shopId": "544b4ee63dabbe6aef1657ee",
+        "shopName": "Hotcity",
+        "goodsId": "54b72024509baf3380cb1b8c",
+        "totalSale": 135565
+      },
+      {
+        "shopId": "53e09db9ff4d6d333c7f23e5",
+        "shopName": "Vitastore",
+        "goodsId": "5450b1923dabbe383142999e",
+        "totalSale": 533631
+      },
+      {
+        "shopId": "555302688889150e60b5023b",
+        "shopName": "NO1 CO.,LTD",
+        "goodsId": "55f69e8adc4c90430074cd9d",
+        "totalSale": 331306
+      },
+      {
+        "shopId": "547bdd648edcfa5656cac810",
+        "shopName": "Faringoto",
+        "goodsId": "549a801640b3780e299bbfd8",
+        "totalSale": 223920
+      },
+      {
+        "shopId": "53be777946188e2dfea44db1",
+        "shopName": "Phoenix",
+        "goodsId": "53cc26c771fdae1e8e04d0d4",
+        "totalSale": 412686
+      },
+      {
+        "shopId": "556318a5b762970edd6bbe2e",
+        "shopName": "orange5",
+        "goodsId": "557512c51f4efb19faf2d37a",
+        "totalSale": 310089
+      },
+      {
+        "shopId": null,
+        "shopName": "其他店铺",
+        "goodsId": null,
+        "totalSale": 710089
+      }
+    ],
+    "goodsData": [
+      {
+        "shopNum": 4763643,
+        "sale": 1290700,
+        "amount": 6840399.03,
+        "commentNum": 80914,
+        "focusNum": 2779615,
+        "saleRatio": -31.00403113505238,
+        "amountRatio": -29.195723045120857,
+        "commentNumRatio": -67.52580629625467,
+        "focusNumRatio": -15.088743026308112,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopNum": 4990988,
+        "sale": 1328602,
+        "amount": 7212493.5200000005,
+        "commentNum": 224160,
+        "focusNum": 2552516,
+        "saleRatio": 2.9365460602773688,
+        "amountRatio": 5.439660586584234,
+        "commentNumRatio": 177.034876535581,
+        "focusNumRatio": -8.170160256006676,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5196793,
+        "sale": 1440218,
+        "amount": 7810745.07,
+        "commentNum": 220422,
+        "focusNum": 2278512,
+        "saleRatio": 8.401010987489105,
+        "amountRatio": 8.294656325736288,
+        "commentNumRatio": -1.667558886509636,
+        "focusNumRatio": -10.734663367438245,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5346298,
+        "sale": 1427506,
+        "amount": 7504651.3,
+        "commentNum": 120135,
+        "focusNum": 3278861,
+        "saleRatio": -0.8826441552598288,
+        "amountRatio": -3.918880558215434,
+        "commentNumRatio": -45.49772708713286,
+        "focusNumRatio": 43.90360902202841,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5489688,
+        "sale": 1464689,
+        "amount": 7656101.6,
+        "commentNum": 237384,
+        "focusNum": 3518335,
+        "saleRatio": 2.604752624507358,
+        "amountRatio": 2.018085770354178,
+        "commentNumRatio": 97.59770258459234,
+        "focusNumRatio": 7.30357279555309,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5606010,
+        "sale": 1425270,
+        "amount": 7568821.8,
+        "commentNum": 756191,
+        "focusNum": 3225315,
+        "saleRatio": -2.691288048179511,
+        "amountRatio": -1.1400031577428364,
+        "commentNumRatio": 218.5517979307788,
+        "focusNumRatio": -8.328371232415332,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5606010,
+        "sale": 1963408,
+        "amount": 11179719.9,
+        "commentNum": 62854,
+        "focusNum": 1516865,
+        "saleRatio": 37.756916233415424,
+        "amountRatio": 47.707532234409335,
+        "commentNumRatio": -91.68807880548697,
+        "focusNumRatio": -52.970019982544336,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopNum": 6715364,
+        "sale": 1676772,
+        "amount": 8970866,
+        "commentNum": 79943,
+        "focusNum": 5292047,
+        "saleRatio": -14.598901501878366,
+        "amountRatio": -19.75768552126248,
+        "commentNumRatio": 27.188404874789196,
+        "focusNumRatio": 248.88055298263194,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7261670,
+        "sale": 929946,
+        "amount": 5448606,
+        "commentNum": 374387,
+        "focusNum": 2320126,
+        "saleRatio": -44.539508054762365,
+        "amountRatio": -39.26332195799157,
+        "commentNumRatio": 368.3174261661434,
+        "focusNumRatio": -56.158250295207125,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7261673,
+        "sale": 1684295,
+        "amount": 9194258,
+        "commentNum": 514816,
+        "focusNum": 1614103,
+        "saleRatio": 81.11750574764555,
+        "amountRatio": 68.74514325315502,
+        "commentNumRatio": 37.50904812400003,
+        "focusNumRatio": -30.430373178008434,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7261673,
+        "sale": 1060743,
+        "amount": 5430388,
+        "commentNum": 205786,
+        "focusNum": 1991029,
+        "saleRatio": -37.021543138226974,
+        "amountRatio": -40.93718057509372,
+        "commentNumRatio": -60.02727187966186,
+        "focusNumRatio": 23.352041350521002,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7329063,
+        "sale": 955123,
+        "amount": 4733131,
+        "commentNum": 350147,
+        "focusNum": 4724039,
+        "saleRatio": -9.957171529767342,
+        "amountRatio": -12.839911254960052,
+        "commentNumRatio": 70.15103068235933,
+        "focusNumRatio": 137.26620757407352,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7339376,
+        "sale": 938424,
+        "amount": 4729460,
+        "commentNum": 148804,
+        "focusNum": 3419545,
+        "saleRatio": -1.7483612058342222,
+        "amountRatio": -0.07755965343025578,
+        "commentNumRatio": -57.502420411998386,
+        "focusNumRatio": -27.613954922895427,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7443673,
+        "sale": 1153355,
+        "amount": 5837324,
+        "commentNum": 361417,
+        "focusNum": 2964121,
+        "saleRatio": 22.90339974254708,
+        "amountRatio": 23.424746165524184,
+        "commentNumRatio": 142.88123975161957,
+        "focusNumRatio": -13.318263102254832,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7469560,
+        "sale": 1097321,
+        "amount": 5768148,
+        "commentNum": 136083,
+        "focusNum": 2841231,
+        "saleRatio": -4.858348036814338,
+        "amountRatio": -1.1850635667987592,
+        "commentNumRatio": -62.347371595691406,
+        "focusNumRatio": -4.145917120117566,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7478521,
+        "sale": 1079410,
+        "amount": 5918402,
+        "commentNum": 277983,
+        "focusNum": 2820015,
+        "saleRatio": -1.6322479930667508,
+        "amountRatio": 2.60489155271328,
+        "commentNumRatio": 104.27459712087477,
+        "focusNumRatio": -0.7467185878233765,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7559496,
+        "sale": 1148241,
+        "amount": 5865411,
+        "commentNum": 83991,
+        "focusNum": 2813767,
+        "saleRatio": 6.376724321620145,
+        "amountRatio": -0.895359929927031,
+        "commentNumRatio": -69.78556242647932,
+        "focusNumRatio": -0.22155910518206465,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7580013,
+        "sale": 1099297,
+        "amount": 5578934,
+        "commentNum": 199690,
+        "focusNum": 2678921,
+        "saleRatio": -4.262519802027623,
+        "amountRatio": -4.884176062001452,
+        "commentNumRatio": 137.75166386874784,
+        "focusNumRatio": -4.792365537018524,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7648621,
+        "sale": 1108633,
+        "amount": 5548703,
+        "commentNum": 634223,
+        "focusNum": 3016357,
+        "saleRatio": 0.8492700334850364,
+        "amountRatio": -0.5418777135560305,
+        "commentNumRatio": 217.60378586809557,
+        "focusNumRatio": 12.595966809024977,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7710973,
+        "sale": 1140522,
+        "amount": 5630216,
+        "commentNum": 92844,
+        "focusNum": 3067951,
+        "saleRatio": 2.876425291327247,
+        "amountRatio": 1.4690460094908666,
+        "commentNumRatio": -85.3609850163113,
+        "focusNumRatio": 1.7104739259974866,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7714698,
+        "sale": 1027586,
+        "amount": 5087815,
+        "commentNum": 337634,
+        "focusNum": 2801636,
+        "saleRatio": -9.902132532296616,
+        "amountRatio": -9.633751174022454,
+        "commentNumRatio": 263.6573176511137,
+        "focusNumRatio": -8.680549330807434,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7722467,
+        "sale": 946477,
+        "amount": 4673345,
+        "commentNum": 133767,
+        "focusNum": 2599917,
+        "saleRatio": -7.893159307347511,
+        "amountRatio": -8.146326075142277,
+        "commentNumRatio": -60.38106351848451,
+        "focusNumRatio": -7.200043117664108,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7768645,
+        "sale": 985997,
+        "amount": 4887843,
+        "commentNum": 461896,
+        "focusNum": 2662817,
+        "saleRatio": 4.17548445445584,
+        "amountRatio": 4.589817357802602,
+        "commentNumRatio": 245.2989152780581,
+        "focusNumRatio": 2.4193080009861854,
+        "time": "2016-12-21T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7785976,
+        "sale": 972997,
+        "amount": 4898205,
+        "commentNum": 114080,
+        "focusNum": 2565130,
+        "saleRatio": -1.3184624293988725,
+        "amountRatio": 0.21199535255121738,
+        "commentNumRatio": -75.30179953929023,
+        "focusNumRatio": -3.6685585227974737,
+        "time": "2016-12-22T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7869457,
+        "sale": 904094,
+        "amount": 4687817,
+        "commentNum": 426911,
+        "focusNum": 2335839,
+        "saleRatio": -7.081522347962019,
+        "amountRatio": -4.295206101010472,
+        "commentNumRatio": 274.22072230014027,
+        "focusNumRatio": -8.938767235968548,
+        "time": "2016-12-23T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7884361,
+        "sale": 830953,
+        "amount": 4361476,
+        "commentNum": 86954,
+        "focusNum": 2118559,
+        "saleRatio": -8.089977369609796,
+        "amountRatio": -6.961470552284784,
+        "commentNumRatio": -79.63182021545474,
+        "focusNumRatio": -9.30201096907792,
+        "time": "2016-12-24T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7891388,
+        "sale": 1168085,
+        "amount": 5828293,
+        "commentNum": 279456,
+        "focusNum": 2881776,
+        "saleRatio": 40.571729086964005,
+        "amountRatio": 33.63120649981795,
+        "commentNumRatio": 221.3837201278837,
+        "focusNumRatio": 36.02528888739941,
+        "time": "2016-12-25T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7897198,
+        "sale": 1314966,
+        "amount": 6399903,
+        "commentNum": 85628,
+        "focusNum": 3346884,
+        "saleRatio": 12.574512984928324,
+        "amountRatio": 9.80750281428885,
+        "commentNumRatio": -69.35904042139013,
+        "focusNumRatio": 16.139630561153957,
+        "time": "2016-12-26T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7906625,
+        "sale": 1232774,
+        "amount": 5938797,
+        "commentNum": 371640,
+        "focusNum": 3110660,
+        "saleRatio": -6.250503815307772,
+        "amountRatio": -7.204890449120869,
+        "commentNumRatio": 334.0169103564255,
+        "focusNumRatio": -7.058027705770502,
+        "time": "2016-12-27T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7943709,
+        "sale": 1375114,
+        "amount": 6605394,
+        "commentNum": 132270,
+        "focusNum": 3383672,
+        "saleRatio": 11.546317492095064,
+        "amountRatio": 11.224444950719818,
+        "commentNumRatio": -64.40910558605101,
+        "focusNumRatio": 8.776658329743526,
+        "time": "2016-12-28T16:00:00.000Z"
+      }
+    ],
+    "shopNumData": [
+      {
+        "shopNum": 4763643,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopNum": 4990988,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5196793,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5346298,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5489688,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5606010,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopNum": 5606010,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopNum": 6715364,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7261670,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7261673,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7261673,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7329063,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7339376,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7443673,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7469560,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7478521,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7559496,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7580013,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7648621,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7710973,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7714698,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7722467,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7768645,
+        "time": "2016-12-21T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7785976,
+        "time": "2016-12-22T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7869457,
+        "time": "2016-12-23T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7884361,
+        "time": "2016-12-24T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7891388,
+        "time": "2016-12-25T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7897198,
+        "time": "2016-12-26T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7906625,
+        "time": "2016-12-27T16:00:00.000Z"
+      },
+      {
+        "shopNum": 7943709,
+        "time": "2016-12-28T16:00:00.000Z"
+      }
+    ],
+    "shopData": [
+
+      {
+        "shopName": "full_house",
+        "shopInfo": {
+          "sale": 44,
+          "time": "2016-11-21T16:00:00.000Z"
+        }
+      },
+      {
+        "shopName": "full_house",
+        "sale": 28,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 39,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 39,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 39,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 46,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 49,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 49,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 14,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 35,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 25,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 25,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 32,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 19,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 23,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 26,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 27,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 16,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 28,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 17,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 5,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 13,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 11,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 15,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 19,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 12,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 17,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 22,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 27,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "full_house",
+        "sale": 17,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 657,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 703,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 854,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 854,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 980,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 888,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 838,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 837,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 414,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 672,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 742,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 748,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 621,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 610,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 599,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 502,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 515,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 536,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 658,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 598,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 442,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 452,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 362,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 371,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 338,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 349,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 507,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 549,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 497,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "WalkerJonny",
+        "sale": 543,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1162,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1460,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1587,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1586,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1737,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1254,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 2157,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 2157,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 575,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 2228,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1159,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1162,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 982,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1297,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1141,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1051,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1216,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1079,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1089,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1234,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 990,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 917,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 999,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 991,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 893,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 784,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1292,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1501,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1635,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "My Everything",
+        "sale": 1785,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 700,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 797,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 783,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 948,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 999,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 1215,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 1257,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 636,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 641,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 2074,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 1049,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 527,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 529,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 1045,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 902,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 887,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 945,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 951,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 1068,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 1225,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 898,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 653,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 652,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 617,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 666,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 733,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 916,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 945,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 747,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "Guyizhai163",
+        "sale": 832,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 596,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 386,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 490,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 551,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 599,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 536,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 588,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 587,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 325,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 767,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 388,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 391,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 317,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 416,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 419,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 358,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 362,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 373,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 427,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 445,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 402,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 345,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 306,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 278,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 280,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 247,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 429,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 448,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 449,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "MTara1",
+        "sale": 427,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 86,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 80,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 76,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 92,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 95,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 71,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 101,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 101,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 49,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 69,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 64,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 64,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 41,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 62,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 39,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 48,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 51,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 52,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 54,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 67,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 51,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 47,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 52,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 35,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 57,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 44,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 55,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 69,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 46,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "Hotcity",
+        "sale": 61,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 100,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 95,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 122,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 64,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 95,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 69,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 138,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 138,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 16,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 78,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 65,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 66,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 39,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 50,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 57,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 50,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 53,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 56,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 52,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 59,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 97,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 93,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 66,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 54,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 67,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 54,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 73,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 76,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 77,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "Vitastore",
+        "sale": 88,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1057,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1002,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1021,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1069,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1072,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1087,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1431,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1431,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 524,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1246,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 640,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 652,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 732,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 894,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 838,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 672,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 797,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 746,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 732,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 766,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 699,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 716,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 678,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 671,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 543,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 445,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 640,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1015,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 1002,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "NO1 CO.,LTD",
+        "sale": 933,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 1062,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "Faringoto",
+        "sale": 0,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 78,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 73,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 70,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 70,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 73,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 75,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 86,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 86,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 30,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 73,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 69,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 69,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 75,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 59,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 61,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 58,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 55,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 46,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 44,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 53,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 53,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 34,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 55,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 27,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 43,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 39,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 65,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 45,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 44,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "Phoenix",
+        "sale": 53,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 356,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 300,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 355,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 323,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 337,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 314,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 465,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 469,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 210,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 378,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 190,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 190,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 176,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 205,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 168,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 175,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 184,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 177,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 148,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 152,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 138,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 115,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 114,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 192,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 85,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 92,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 139,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 57,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 84,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "orange5",
+        "sale": 77,
+        "time": "2016-12-20T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 593,
+        "time": "2016-11-21T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 623,
+        "time": "2016-11-22T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 673,
+        "time": "2016-11-23T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 684,
+        "time": "2016-11-24T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 806,
+        "time": "2016-11-25T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 632,
+        "time": "2016-11-26T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 773,
+        "time": "2016-11-27T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 772,
+        "time": "2016-11-28T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 195,
+        "time": "2016-11-29T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 818,
+        "time": "2016-11-30T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 417,
+        "time": "2016-12-01T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 423,
+        "time": "2016-12-02T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 415,
+        "time": "2016-12-03T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 465,
+        "time": "2016-12-04T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 463,
+        "time": "2016-12-05T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 416,
+        "time": "2016-12-06T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 418,
+        "time": "2016-12-07T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 419,
+        "time": "2016-12-08T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 442,
+        "time": "2016-12-09T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 428,
+        "time": "2016-12-10T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 348,
+        "time": "2016-12-11T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 294,
+        "time": "2016-12-12T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 311,
+        "time": "2016-12-13T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 278,
+        "time": "2016-12-14T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 233,
+        "time": "2016-12-15T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 251,
+        "time": "2016-12-16T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 350,
+        "time": "2016-12-17T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 497,
+        "time": "2016-12-18T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 465,
+        "time": "2016-12-19T16:00:00.000Z"
+      },
+      {
+        "shopName": "yiwu chuangju dianzishangwu shanghang",
+        "sale": 539,
+        "time": "2016-12-20T16:00:00.000Z"
+      }
+    ]
+  }
+}

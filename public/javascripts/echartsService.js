@@ -27,11 +27,11 @@ angular.module('echartsServiceModule', [])
 	                data: data.xAxisData
 	            },
 	            yAxis: {
-	                name: data.legend[0]
+	                name: data.legend
 	            },
 	            series: [
 	            	{
-	              	 name: data.legend[0],
+	              	 name: data.legend,
 	               	 type: 'line',
 	               	 data: data.seriesData[0]
 	          		}
@@ -44,50 +44,93 @@ angular.module('echartsServiceModule', [])
 		//柱状与折线图
 		service.typeBarLineOption = function (data) {
 		  var option = {
-		          tooltip: {
-		            trigger: "axis"
-		          },
-		          legend: {
-		            data: data.legend,
-		          },
-		          xAxis:  {
-		              data: data.xAxisData
-		          },
-		          yAxis: [
-		            {
-		              name: data.legend[0],
-		              splitLine: {
-		                show: false
-		              },
-		              splitArea: {
-		                show: false
-		              }
-		            },
-		            {
-		              name: data.legend[1],
-		              splitLine: {
-		                show: false
-		              },
-		              splitArea: {
-		                show: false
-		              }
-		            }
-		          ],
-		          series: [
-		            {
-		              name: data.legend[0],
-		              type: "bar",
-		              data: data.seriesData[0]
-		            },
-		            {
-		              name: data.legend[1],
-		              type: "line",
-		              yAxisIndex: 1,
-		              data: data.seriesData[1]
-		            }
-		          ]
-		        }
-		        return option
+	          tooltip: {
+	            trigger: "axis"
+	          },
+	          legend: {
+	            data: data.legend,
+	          },
+	          xAxis:  {
+	              data: data.xAxisData
+	          },
+	          yAxis: [
+	            {
+	              name: data.legend[0],
+	              splitLine: {
+	                show: false
+	              },
+	              splitArea: {
+	                show: false
+	              }
+	            },
+	            {
+	              name: data.legend[1],
+	              splitLine: {
+	                show: false
+	              },
+	              splitArea: {
+	                show: false
+	              }
+	            }
+	          ],
+	          series: [
+	            {
+	              name: data.legend[0],
+	              type: "bar",
+	              data: data.seriesData[0]
+	            },
+	            {
+	              name: data.legend[1],
+	              type: "line",
+	              yAxisIndex: 1,
+	              data: data.seriesData[1]
+	            }
+	          ]
+	        }
+	        return option
+		}
+
+		//多线条
+		service.typeMultiLineOption = function (data) {
+			var option = {
+	            tooltip: {
+	              trigger: "axis"
+	            },
+	            legend: {
+	                data: data.legend
+	            },
+	            xAxis: {
+	                data: data.xAxisData
+	            },
+	            yAxis: {
+	                name: data.legend
+	            },
+	            series: data.seriesData
+			}
+			
+			return option
+		}
+
+		//饼状图
+		service.typePieOption = function (data, legend) {
+			var option = {
+			  tooltip : {
+			    formatter: "{b} : {c} 个 ({d}%)"
+			  },
+			  legend: {
+			    orient: 'vertical',
+			    x: '70%',
+			    y:'15%',
+			    data: legend
+			  },
+			  series: {
+			    type:'pie',
+			    radius: ['47%', '68%'],
+			    center: ['35%', '50%'],
+			    data:data
+			  }
+			}
+			return option
 		}
 
 

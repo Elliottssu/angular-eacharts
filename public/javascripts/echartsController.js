@@ -1,94 +1,78 @@
 angular.module('echartsCtrlModule', ['echartsServiceModule'])
 	.controller('echartsCtrl', function ($scope, $http, echartService) {
-		$scope.showId = [true, false, false, false, true, false, false, false];
-		$scope.showTrend = function (index) {
-		  $scope.showId = [];
-		  $scope.showId[index] = true;
+		//导航切换
+		$scope.showId = [[1],[1]];
+		$scope.showTrend = function (type, index) {
+		  $scope.showId[type] = [];
+		  $scope.showId[type][index] = true;
 		  switch (index) {
 		    case 0:
-		      $scope.lineSingleOption = $scope.lineOption1;
+		      type?$scope.typeBarLineOption=$scope.typeBarLine1:$scope.typeLineOption = $scope.typeLine1;
 		      break;
 		    case 1:
-		      $scope.lineSingleOption =$scope.lineOption2;
+		      type?$scope.typeBarLineOption=$scope.typeBarLine2:$scope.typeLineOption = $scope.typeLine2;
 		      break;
 		    case 2:
-		      $scope.lineSingleOption = $scope.lineOption3;
+		      type?$scope.typeBarLineOption=$scope.typeBarLine3:$scope.typeLineOption = $scope.typeLine3;
 		      break;
 		    case 3:
-		      $scope.lineSingleOption = $scope.lineOption4;
+		      type?$scope.typeBarLineOption=$scope.typeBarLine4:$scope.typeLineOption = $scope.typeLine4;
 		      break;
-			case 4:
-			  $scope.lineSingleOption2 = $scope.lineOption5;
-			  break;
-			case 5:
-			  $scope.lineSingleOption2 =$scope.lineOption6;
-			  break;
-			case 6:
-		      $scope.lineSingleOption2 = $scope.lineOption7;
-			  break;
-			case 7:
-			  $scope.lineSingleOption2 = $scope.lineOption8;
-			  break;
 		  }
 		};
 
 
-		$scope.lineData1 = {
-			legend: ['销售量','增长率']
-		}
-		$scope.lineData2 = {
-			legend: ['销售额','增长率']
-		}
-		$scope.lineData3 = {
-			legend: ['收藏','增长率']
-		}
-		$scope.lineData4 = {
-			legend: ['评价','增长率']
-		}
-
-		$scope.lineData5 = {
-			legend: ['销售量','增长率']
-		}
-		$scope.lineData6 = {
-			legend: ['销售额','增长率']
-		}
-		$scope.lineData7 = {
-			legend: ['收藏','增长率']
-		}
-		$scope.lineData8 = {
-			legend: ['评价','增长率']
-		}
-
 		$http.get('./resources/goodsInfo.json').success(function (data) {
-			echartService.handleData(data, $scope.lineData1, 'amount', 'amountRatio')
-			$scope.lineOption1 = echartService.typeLineOption($scope.lineData1)
-
-	    	echartService.handleData(data, $scope.lineData2, 'sale', 'saleRatio')
-	    	$scope.lineOption2 = echartService.typeLineOption($scope.lineData2)
-
-        	echartService.handleData(data, $scope.lineData3, 'focusNum', 'commentNumRatio')
-        	$scope.lineOption3 = echartService.typeLineOption($scope.lineData3)
-
-        	echartService.handleData(data, $scope.lineData4, 'commentNum', 'amountRatio')
-        	$scope.lineOption4 = echartService.typeLineOption($scope.lineData4)
-
-            $scope.lineSingleOption = $scope.lineOption1
+			//单线条演示
+			$scope.typeLineData = {
+				legend: ['店铺数量']
+			}
+			echartService.handleData(data.data.shopNumData, $scope.typeLineData, 'shopNum')
+			$scope.typeLineOption = echartService.typeLineOption($scope.typeLineData)
 
 
-            //第二种
-			echartService.handleData(data, $scope.lineData5, 'amount', 'amountRatio')
-			$scope.lineOption5 = echartService.typeBarLineOption($scope.lineData5)
+            //柱状图与折线双演示
+            $scope.typeBarLineData1 = {
+            	legend: ['销售量','增长率']
+            }
+            $scope.typeBarLineData2 = {
+            	legend: ['销售额','增长率']
+            }
+            $scope.typeBarLineData3 = {
+            	legend: ['收藏','增长率']
+            }
+            $scope.typeBarLineData4 = {
+            	legend: ['评价','增长率']
+            }
 
-	    	echartService.handleData(data, $scope.lineData6, 'sale', 'saleRatio')
-	    	$scope.lineOption6 = echartService.typeBarLineOption($scope.lineData6)
+			echartService.handleData(data.data.goodsData, $scope.typeBarLineData1, 'amount', 'amountRatio')
+			$scope.typeBarLine1 = echartService.typeBarLineOption($scope.typeBarLineData1)
 
-	    	echartService.handleData(data, $scope.lineData7, 'focusNum', 'commentNumRatio')
-	    	$scope.lineOption7 = echartService.typeBarLineOption($scope.lineData7)
+	    	echartService.handleData(data.data.goodsData, $scope.typeBarLineData2, 'sale', 'saleRatio')
+	    	$scope.typeBarLine2 = echartService.typeBarLineOption($scope.typeBarLineData2)
 
-	    	echartService.handleData(data, $scope.lineData8, 'commentNum', 'amountRatio')
-	    	$scope.lineOption8 = echartService.typeBarLineOption($scope.lineData8)
+	    	echartService.handleData(data.data.goodsData, $scope.typeBarLineData3, 'focusNum', 'commentNumRatio')
+	    	$scope.typeBarLine3 = echartService.typeBarLineOption($scope.typeBarLineData3)
 
-	        $scope.lineSingleOption2 = $scope.lineOption5
+	    	echartService.handleData(data.data.goodsData, $scope.typeBarLineData4, 'commentNum', 'amountRatio')
+	    	$scope.typeBarLine4 = echartService.typeBarLineOption($scope.typeBarLineData4)
+
+	        $scope.typeBarLineOption = $scope.typeBarLine1
+
+	        //多线条演示
+
+	        $scope.shopSaleData = [];
+	        $scope.pieLegend = [];
+	        angular.forEach(data.data.shopSummary, function (v,k) {
+	          $scope.echartData = {
+	            value: v.totalSale,
+	            name: v.shopName
+	          }
+	          $scope.shopSaleData.push($scope.echartData);
+	          $scope.pieLegend.push(v.shopName);
+	        })
+	        $scope.typePieOption = echartService.typePieOption($scope.shopSaleData, $scope.pieLegend);
+
 		})
 
 	})

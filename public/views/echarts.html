@@ -1,21 +1,34 @@
 <p class="tab-title">单线条演示</p>
 <div class="clearfix chart-tab">
   <ul>
-    <li ng-class="{'active':showId[0]}" ng-click="showTrend(0)">销量</li>
-    <li ng-class="{'active':showId[1]}" ng-click="showTrend(1)">销售额</li>
-    <li ng-class="{'active':showId[2]}" ng-click="showTrend(2)">收藏</li>
-    <li ng-class="{'active':showId[3]}" ng-click="showTrend(3)">评价</li>
+    <li class="active">售卖该商品的店铺数量</li>
   </ul>
 </div>
-<ng-echarts option='lineSingleOption'></ng-echarts>
+<ng-echarts option='typeLineOption'></ng-echarts>
 
 <p class="tab-title">柱状图与折线双演示</p>
 <div class="clearfix chart-tab">
   <ul>
-    <li ng-class="{'active':showId[4]}" ng-click="showTrend(4)">销量</li>
-    <li ng-class="{'active':showId[5]}" ng-click="showTrend(5)">销售额</li>
-    <li ng-class="{'active':showId[6]}" ng-click="showTrend(6)">收藏</li>
-    <li ng-class="{'active':showId[7]}" ng-click="showTrend(7)">评价</li>
+    <li ng-class="{'active':showId[1][0]}" ng-click="showTrend(1, 0)">销量</li>
+    <li ng-class="{'active':showId[1][1]}" ng-click="showTrend(1, 1)">销售额</li>
+    <li ng-class="{'active':showId[1][2]}" ng-click="showTrend(1, 2)">收藏</li>
+    <li ng-class="{'active':showId[1][3]}" ng-click="showTrend(1, 3)">评价</li>
   </ul>
 </div>
-<ng-echarts option='lineSingleOption2'></ng-echarts>
+<ng-echarts option='typeBarLineOption'></ng-echarts>
+
+<p class="tab-title">多线条演示</p>
+<div class="clearfix chart-tab">
+  <ul>
+    <li class="active">各店铺销量</li>
+  </ul>
+</div>
+<ng-echarts option='typeMultiLineOption'></ng-echarts>
+
+<p class="tab-title">饼状图演示</p>
+<div class="clearfix chart-tab">
+  <ul>
+    <li class="active">各店铺销量分布</li>
+  </ul>
+</div>
+<ng-echarts option='typePieOption'></ng-echarts>
