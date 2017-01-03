@@ -561,13 +561,10 @@
       }
     ],
     "shopData": [
-
       {
         "shopName": "full_house",
-        "shopInfo": {
-          "sale": 44,
-          "time": "2016-11-21T16:00:00.000Z"
-        }
+        "sale": 44,
+        "time": "2016-11-21T16:00:00.000Z"
       },
       {
         "shopName": "full_house",

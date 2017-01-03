@@ -1,22 +1,22 @@
 angular.module('echartsCtrlModule', ['echartsServiceModule'])
 	.controller('echartsCtrl', function ($scope, $http, echartService) {
 		//导航切换
-		$scope.showId = [[1],[1]];
-		$scope.showTrend = function (type, index) {
-		  $scope.showId[type] = [];
-		  $scope.showId[type][index] = true;
+		$scope.showId = [true];
+		$scope.showTrend = function (index) {
+		  $scope.showId = [];
+		  $scope.showId[index] = true;
 		  switch (index) {
 		    case 0:
-		      type?$scope.typeBarLineOption=$scope.typeBarLine1:$scope.typeLineOption = $scope.typeLine1;
+		      $scope.typeBarLineOption = $scope.typeBarLine1;
 		      break;
 		    case 1:
-		      type?$scope.typeBarLineOption=$scope.typeBarLine2:$scope.typeLineOption = $scope.typeLine2;
+		      $scope.typeBarLineOption = $scope.typeBarLine2;
 		      break;
 		    case 2:
-		      type?$scope.typeBarLineOption=$scope.typeBarLine3:$scope.typeLineOption = $scope.typeLine3;
+		      $scope.typeBarLineOption = $scope.typeBarLine3;
 		      break;
 		    case 3:
-		      type?$scope.typeBarLineOption=$scope.typeBarLine4:$scope.typeLineOption = $scope.typeLine4;
+		      $scope.typeBarLineOption = $scope.typeBarLine4;
 		      break;
 		  }
 		};
@@ -61,6 +61,15 @@ angular.module('echartsCtrlModule', ['echartsServiceModule'])
 
 	        //多线条演示
 
+
+			$scope.shopsNumData = {
+			  yAxisName: '件'
+			};
+
+			echartService.handleMaxData(data.data.shopData, $scope.shopsNumData, 'shopName', 'sale', 'line')
+			$scope.typeMultiLineOption = echartService.typeMultiLineOption($scope.shopsNumData);
+
+	        //饼状图演示
 	        $scope.shopSaleData = [];
 	        $scope.pieLegend = [];
 	        angular.forEach(data.data.shopSummary, function (v,k) {

@@ -14,6 +14,30 @@ angular.module('echartsServiceModule', [])
 			return afterData
 		}
 
+		//处理原始数据(复杂)
+		service.handleMaxData = function (beforeData, afterData, key1, key2, type) {
+			afterData.xAxisData = [];
+			afterData.series = [];
+			afterData.legend = [];
+			times = [];
+
+			//_.uniq去重 _.map过滤 _.chunk分组
+			angular.forEach(beforeData, function (v, k) {
+			  times.push(new Date(v.time).toLocaleDateString());
+			})
+			afterData.xAxisData = _.uniq(times, true);
+
+			angular.forEach(_.chunk(beforeData, 30), function (v, k) {
+			  data = {};
+			  data.name = _.uniq(_.map(v,key1))[0];
+			  data.data = _.map(v, key2);
+			  data.type = type;
+			  afterData.series.push(data);
+			  afterData.legend.push(data.name);
+			})
+			return afterData
+		}
+
 		//单折线图
 		service.typeLineOption = function (data) {
 			var option = {
@@ -97,15 +121,18 @@ angular.module('echartsServiceModule', [])
 	              trigger: "axis"
 	            },
 	            legend: {
-	                data: data.legend
+	                data: data.legend,
+	                top: 10,
+	                left: '20%',
+	                right: '20%'
 	            },
 	            xAxis: {
 	                data: data.xAxisData
 	            },
 	            yAxis: {
-	                name: data.legend
+	                name: data.yAxisName
 	            },
-	            series: data.seriesData
+	            series: data.series
 			}
 			
 			return option
